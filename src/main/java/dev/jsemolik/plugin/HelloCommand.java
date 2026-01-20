@@ -23,9 +23,6 @@ public class HelloCommand extends AbstractPlayerCommand {
              @NonNullDecl Ref<EntityStore> ref,
              @NonNullDecl PlayerRef playerRef,
              @NonNullDecl World world) {
-
-    } {
-        PlayerRef playerRef = null;
         EventTitleUtil.showEventTitleToPlayer(
                 playerRef,
                 Message.raw("Hello World!"),
