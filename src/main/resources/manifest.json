@@ -1,0 +1,6 @@
+{
+  "Group": "dev.jsemolik",
+  "Name": "HelloPlugin",
+  "Version": "1.0.0",
+  "Main": "dev.jsemolik.plugin.HelloPlugin"
+}
