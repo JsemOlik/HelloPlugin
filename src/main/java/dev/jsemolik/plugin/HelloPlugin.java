@@ -13,5 +13,6 @@ public class HelloPlugin extends JavaPlugin {
     @Override
     protected void setip() {
         super.setup();
+        this.getCommandRegistry().registerCommand(new HelloCommand("hello", "An example command", false));
     }
 }

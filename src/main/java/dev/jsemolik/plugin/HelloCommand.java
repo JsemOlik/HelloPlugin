@@ -25,6 +25,7 @@ public class HelloCommand extends AbstractPlayerCommand {
              @NonNullDecl World world) {
 
     } {
+        PlayerRef playerRef = null;
         EventTitleUtil.showEventTitleToPlayer(
                 playerRef,
                 Message.raw("Hello World!"),
